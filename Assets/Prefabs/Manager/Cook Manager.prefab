@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6325789043233109021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2750259031741660250}
+  - component: {fileID: 696471257738991263}
+  m_Layer: 0
+  m_Name: Cook Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2750259031741660250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6325789043233109021}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696471257738991263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6325789043233109021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ae614fab4a42d46b7eba4b9eb0ea8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExitSceneEvent: {fileID: 11400000, guid: 714b37ea13d83d44cb2fe2d2ee579da4, type: 2}
+  MaterialList:
+  - {fileID: 21300000, guid: 933ffab61cf31ba4f8c1c5ca88c3005c, type: 3}
+  - {fileID: 21300000, guid: 838aa6416d4efbd43a3000cd79ccbf20, type: 3}
+  - {fileID: 21300000, guid: 1831507948169c747bb75fc25ddab5b2, type: 3}
+  FoodList:
+  - {fileID: 21300000, guid: acdd8e3f685f6614a92ae6113877ce42, type: 3}
+  - {fileID: 21300000, guid: 9981907189a125a4d987d05971a0b5dc, type: 3}
+  - {fileID: 21300000, guid: ee35bdc8ae989184db82d5e5189d51f4, type: 3}
+  - {fileID: 21300000, guid: 1ceac77038f98884ba0767ba29da1f4c, type: 3}
+  - {fileID: 21300000, guid: c78addb49d4b0474cb939421524c5cf5, type: 3}
+  - {fileID: 21300000, guid: 35551a364da5dfb488076c7791e5045a, type: 3}
+  - {fileID: 21300000, guid: 8a5cc453fba28334188d639009cdb8d1, type: 3}
+  - {fileID: 21300000, guid: 9abf05076d59d524e8244be28d61926c, type: 3}
+  - {fileID: 21300000, guid: dde093912cf5eb242a074b331dcb233b, type: 3}
+  - {fileID: 21300000, guid: ec0ec07845ebd5249a8ee4c7ca242ddb, type: 3}
+  - {fileID: 21300000, guid: acb344c2b99ccdf488ea61fa5eb162f2, type: 3}
+  - {fileID: 21300000, guid: 5ec3fe7e76625554d842095171b115f9, type: 3}
+  RecipeList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MaterialTarget: {fileID: 0}
+  FoodTarget: {fileID: 0}

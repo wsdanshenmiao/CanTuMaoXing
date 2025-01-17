@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1940485320084464467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5320790951484159167}
+  - component: {fileID: 1018767644525931882}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5320790951484159167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940485320084464467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1018767644525931882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940485320084464467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b61ad62f8125748a2c1c3e42cf925b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundList:
+  - clip: {fileID: 8300000, guid: 6d29f31bd90cc124cb2dcb2b5b135e22, type: 3}
+    mixerGroup: {fileID: -8611890464563107930, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 1
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 80e847ef8625a114c8dea0ac36be7f34, type: 3}
+    mixerGroup: {fileID: -8611890464563107930, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: c50a451a8b852bd44bff1aa4336d39b6, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: e0346dde2b0752646bbefc790eb8c7e1, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 0bb5cf0f9c9e71c4ba2ca0244f45ef24, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: f3ed9f564b742dd4588c418dadd4a1db, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 6418f665796fcb54383dae77c40ddfa3, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 8a5275502853da54baca840f2ce219d6, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 3f09e11d39ae79545ae7c18e684412c4, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 33db2b034641df34cab998fc43d81600, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: a8e6cc7aeddef384a9e1fa9ef61c48cd, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: a309157e895c7544d8676c26c9c0923d, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 5fdbadf011de83f4b873dfbfbe120eac, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 31ba0f6e9bca4b54d89d8a7dea87ed36, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: bffbd42b617e5624e8d7f24a6122a76f, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: 868b30aa4502fbb48a0b414b33d8130c, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0
+  - clip: {fileID: 8300000, guid: e0eb3c18de9ea2e469f28b5cfc31d84e, type: 3}
+    mixerGroup: {fileID: -1794382678461199859, guid: afd925f5d5cb6bf4bb301e58987fccd1, type: 2}
+    volume: 1
+    loop: 0
+    playOnAwake: 0

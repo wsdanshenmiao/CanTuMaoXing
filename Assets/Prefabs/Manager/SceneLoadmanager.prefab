@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2068285239200222619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6196080388448149199}
+  - component: {fileID: 4975483769082543951}
+  m_Layer: 0
+  m_Name: SceneLoadmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6196080388448149199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068285239200222619}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4975483769082543951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068285239200222619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c86575bf5333d40b56036e061c0217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExitSceneEvent: {fileID: 11400000, guid: 714b37ea13d83d44cb2fe2d2ee579da4, type: 2}
+  SceneLoadEvent: {fileID: 11400000, guid: b22e7efff51dc8f42a6402c67ff878f0, type: 2}
+  AfterSceneLoadEvent: {fileID: 11400000, guid: 8fb7cda00c6758d4a9e4e81b6298e01f, type: 2}
+  NewGameEvent: {fileID: 11400000, guid: 42a3869f4777cab448ab7102a7bf6978, type: 2}
+  FadeEvent: {fileID: 11400000, guid: dd129470ea1ae524e877b3f6e0fa8ab9, type: 2}
+  MainMenuScene: {fileID: 11400000, guid: c9919a4a0cb929f43999307f43384d06, type: 2}
+  FirstScene: {fileID: 11400000, guid: 18dfdced166282b4da937d3b463e6856, type: 2}
+  firstPos: {x: 0, y: 0, z: 0}
+  fadeDuration: 1.5
+  isFadeScreen: 1
+  isLoading: 0
+  PlayerTrans: {fileID: 0}
